@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+
+/* Define the styles for the letter grid */
+/* Style the individual letter squares */
+/* Center the letters and make the squares bigger */
+/* Center the title and increase font size */
+/* Center the title and increase font size */
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Style Script', cursive;
+}
+
+.letter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.letter-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  font-size: 2.5rem;
+}
+
+form {
+  text-align: center;
+}
+
+.form-group:last-child {
+  margin-top: 20px;
+}
+
+.refresh-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url('/assets/Thierry.jpg'); /* Replace with your image file's name */
+  background-size: cover; /* Adjust as needed to control how the image is displayed */
+  /* Additional background properties like background-repeat, background-position, etc. can be added here */
+}
+
+
+.container {
+  padding: 40px;
+}
+
+.btn-primary {
+  font-size: 28px;
+}
